@@ -1,10 +1,10 @@
-import {ReactComponent as Instagram} from '../static/img/instagram.svg';
-import {ReactComponent as Facebook} from '../static/img/facebook.svg';
-import {ReactComponent as LinkedIn} from '../static/img/linkedin.svg';
-import {ReactComponent as Twitter} from '../static/img/twitter.svg';
-import {ReactComponent as YouTube} from '../static/img/youtube.svg';
-import {ReactComponent as Phone} from '../static/img/phone.svg';
-import {ReactComponent as Message} from '../static/img/message.svg';
+import {ReactComponent as Instagram} from '../static/img/icons/instagram.svg';
+import {ReactComponent as Facebook} from '../static/img/icons/facebook.svg';
+import {ReactComponent as LinkedIn} from '../static/img/icons/linkedin.svg';
+import {ReactComponent as Twitter} from '../static/img/icons/twitter.svg';
+import {ReactComponent as YouTube} from '../static/img/icons/youtube.svg';
+import {ReactComponent as Phone} from '../static/img/icons/phone.svg';
+import {ReactComponent as Message} from '../static/img/icons/message.svg';
 import { useMessageBlockContext, useTheme } from './ThemeProvider';
 
 export const Navigation = () => {

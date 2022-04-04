@@ -1,8 +1,8 @@
-import {ReactComponent as Home} from '../static/img/home.svg';
-import {ReactComponent as FAQ} from '../static/img/faq.svg';
-import {ReactComponent as Chat} from '../static/img/message.svg';
-import {ReactComponent as Directory} from '../static/img/directory.svg';
-import {ReactComponent as Order} from '../static/img/cart.svg';
+import {ReactComponent as Home} from '../static/img/icons/home.svg';
+import {ReactComponent as FAQ} from '../static/img/icons/faq.svg';
+import {ReactComponent as Chat} from '../static/img/icons/message.svg';
+import {ReactComponent as Directory} from '../static/img/icons/directory.svg';
+import {ReactComponent as Order} from '../static/img/icons/cart.svg';
 import { useTheme } from './ThemeProvider';
 import classNames from 'classnames';
 

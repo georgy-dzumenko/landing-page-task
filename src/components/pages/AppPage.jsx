@@ -9,9 +9,9 @@ import { AbilitiesSlider } from '../AbilitiesSlider';
 import { OfferCards } from '../OfferCards';
 import { Accordion } from '../Accordion';
 import { AdditionalFeatureCard } from '../AdditionalFeatureCard';
-import {ReactComponent as DownloadFromAppleStore} from '../../static/buttons/downloadFromAppleStore.svg'
-import {ReactComponent as AndroidIcon} from '../../static/systems/android-little.svg';
-import {ReactComponent as AppleIcon} from '../../static/systems/apple-little.svg';
+import {ReactComponent as DownloadFromAppleStore} from '../../static/img/buttons/downloadFromAppleStore.svg'
+import {ReactComponent as AndroidIcon} from '../../static/img/systems/android-little.svg';
+import {ReactComponent as AppleIcon} from '../../static/img/systems/apple-little.svg';
 import { Footer } from '../Footer';
 import classNames from 'classnames';
 import { PopUpVideo } from '../PopUpVideo';
@@ -56,7 +56,11 @@ export const AppPage = () => {
             <p>
               <AndroidIcon className="icon"/>
               {' Android App can be published and hosted for free on our '}
-              <a href="//play.google.com/apps/publish/signup/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="//play.google.com/apps/publish/signup/"
+                target="_blank"
+              >
                 Google Play
               </a>
               {' account or on your own Google Play account.'}
@@ -64,7 +68,11 @@ export const AppPage = () => {
             <p class="MuiTypography-root sc-dkPtRN jAnVkG MuiTypography-body1">
               <AppleIcon className="icon"/>
               {' You need your own '}
-              <a href="//developer.apple.com/programs/enroll/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="//developer.apple.com/programs/enroll/"
+                target="_blank"
+              >
                 Apple Developer Account
               </a>
               {' and Apple ID to have your iOS App submitted to Apple App Store. '}
@@ -125,7 +133,7 @@ export const AppPage = () => {
           <h2 className="h2 h2--mg-bottom">Download Demo App</h2>
           <div className="download-button-container">
             <a href="https://play.google.com/store/apps/details?id=com.fc4u.demo">
-              <img src={require("../../static/buttons/downloadFromGooglePlay.png")} alt="" className="download-button"/>
+              <img src={require("../../static/img/buttons/downloadFromGooglePlay.png")} alt="" className="download-button"/>
             </a>
             <a href="https://apps.apple.com/us/app/fastcast4u-online-radio-app/id1456258846?l=en&ls=1">
               <DownloadFromAppleStore className="download-button" />

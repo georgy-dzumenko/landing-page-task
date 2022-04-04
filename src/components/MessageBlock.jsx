@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { useMessageBlockContext } from "./ThemeProvider"
-import {ReactComponent as ChatBy} from '../static/img/power.svg'
+import {ReactComponent as ChatBy} from '../static/img/icons/power.svg'
 
 //this component is just a stub, because I cant make real functionality of it without database
 export const MessageBlock = () => {
@@ -23,10 +23,15 @@ export const MessageBlock = () => {
         :
         <>
           <div className="message-block__active-header">
-            <img src={require('../static/hamburger-icon.png')} className="message-block__header-button"></img>
+            <img
+              src={require('../static/img/buttons/hamburger-icon.png')}
+              alt="menu"
+              className="message-block__header-button"
+            />
             <img
               onClick={toggleMessageBlockActive}
-              src={require('../static/close-button.png')}
+              alt="close"
+              src={require('../static/img/buttons/close-button.png')}
               className="message-block__header-button"
             />
           </div>

@@ -1,7 +1,9 @@
 import { usePopUpVideo } from "./ThemeProvider"
 
+//the banner that will be shown on top of the page.
 export const Banner = () => {
   const {togglePopUpVideoActive} = usePopUpVideo()
+
   return (
     <div className="banner">
       <img src={require("../static/img/bg-img.png")} alt="" className="banner__bg-img" />

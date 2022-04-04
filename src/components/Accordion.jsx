@@ -1,8 +1,11 @@
 import { useState } from "react"
-import {ReactComponent as Chevron} from "../static/img/chevron.svg"
+import {ReactComponent as Chevron} from "../static/img/icons/chevron.svg"
 import { useTheme } from "./ThemeProvider";
 const classNames = require("classnames");
 
+
+//the accordion component
+//the children components of it will be hidden or displayed depending on accordion state
 export const Accordion = ({title, children, opened=false}) => {
   const [active, setActive] = useState(opened);
   const darkTheme = useTheme();
