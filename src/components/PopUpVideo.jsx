@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import { usePopUpVideo } from "./ThemeProvider";
 
+//video which will be displayed if popUpVideoContext value is set to true
 export const PopUpVideo = () => {
   const {isPopUpVideoActive, togglePopUpVideoActive} = usePopUpVideo()
 

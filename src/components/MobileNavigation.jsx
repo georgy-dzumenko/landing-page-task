@@ -6,7 +6,7 @@ import {ReactComponent as Order} from '../static/img/icons/cart.svg';
 import { useTheme } from './ThemeProvider';
 import classNames from 'classnames';
 
-
+//navigation which will be displayed for mobile phone users
 export const MobileNavigation = () => {
   const darkTheme = useTheme();
 

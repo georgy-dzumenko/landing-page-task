@@ -7,6 +7,7 @@ import {ReactComponent as Phone} from '../static/img/icons/phone.svg';
 import {ReactComponent as Message} from '../static/img/icons/message.svg';
 import { useMessageBlockContext, useTheme } from './ThemeProvider';
 
+//navigation for desktop users
 export const Navigation = () => {
   const darkTheme = useTheme();
   const {toggleMessageBlockActive} = useMessageBlockContext()

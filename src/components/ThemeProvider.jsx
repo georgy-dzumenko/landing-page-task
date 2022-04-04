@@ -29,6 +29,7 @@ export const useMessageBlockContext = () => {
   return useContext(MessageContext);
 }
 
+//providers wich controll visual of the page
 export const ThemeProvider = ({children}) => {
   //the initial value of dark theme is stored in locasStorage, if it isn't, the value is false
   const [darkTheme, setDarkTheme] = useState(JSON.parse(localStorage.getItem('theme')) || false);
