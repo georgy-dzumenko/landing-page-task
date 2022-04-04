@@ -78,18 +78,6 @@
       filter: brightness(0) invert(1);
     }
 
-    &--android {
-      background-image: url(../../static/img/systems/android.png)
-    }
-
-    &--IP {
-      background-image: url(../../static/img/systems/IP.png)
-    }
-
-    &--IPAndAndroid {
-      background-image: url(../../static/img/systems/IPAndAndroid.png)
-    }
-
     &--big {
       margin: 24px 0;
 
