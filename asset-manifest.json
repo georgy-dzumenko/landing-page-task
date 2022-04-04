@@ -1,14 +1,24 @@
 {
   "files": {
     "main.css": "./static/css/main.cb5d5ce5.css",
-    "main.js": "./static/js/main.da1fab0f.js",
+    "main.js": "./static/js/main.0f3a0152.js",
     "static/js/787.f1355ab5.chunk.js": "./static/js/787.f1355ab5.chunk.js",
     "static/media/bg-img.png": "./static/media/bg-img.1f1041e718f6029b072c.png",
     "static/media/onlineAppCreator.png": "./static/media/onlineAppCreator.55223361602ccdb2e819.png",
     "static/media/mobilePhoneBorder.png": "./static/media/mobilePhoneBorder.527cf703ee0efadad385.png",
     "static/media/mobileApp.png": "./static/media/mobileApp.924ea8440a4de5c998f3.png",
+    "static/media/10.png": "./static/media/10.8b0f9d02389c9d6a2df8.png",
+    "static/media/9.png": "./static/media/9.91d1d78ae93684cba51b.png",
+    "static/media/7.png": "./static/media/7.19dfb585b77d672cf54c.png",
+    "static/media/3.png": "./static/media/3.b19dbdea1d4ae827f36a.png",
+    "static/media/5.png": "./static/media/5.826e3830f41120354e06.png",
+    "static/media/8.png": "./static/media/8.105aa847d698e2db1804.png",
+    "static/media/6.png": "./static/media/6.715ec392d6e050cdb2eb.png",
+    "static/media/4.png": "./static/media/4.e8e8b195ede9908fd88c.png",
     "static/media/close-button.png": "./static/media/close-button.303a3073880a4fb7381a.png",
+    "static/media/2.png": "./static/media/2.73e1dfef8f5f01179c99.png",
     "static/media/IPAndAndroid.png": "./static/media/IPAndAndroid.92bb782fc06c98d89664.png",
+    "static/media/1.png": "./static/media/1.763837682bacfdb902d2.png",
     "static/media/hamburger-icon.png": "./static/media/hamburger-icon.a633845bca57a0d1a648.png",
     "static/media/downloadFromAppleStore.svg": "./static/media/downloadFromAppleStore.86c0589652ef75db2e3d3b02a217cfec.svg",
     "static/media/downloadFromGooglePlay.png": "./static/media/downloadFromGooglePlay.0ce62b9b77953eeef496.png",
@@ -31,11 +41,11 @@
     "static/media/chevron.svg": "./static/media/chevron.491d3d1c41eae37cf58bb190d3a67731.svg",
     "static/media/home.svg": "./static/media/home.f2dd8953b32b10abdc061a427d7432a7.svg",
     "main.cb5d5ce5.css.map": "./static/css/main.cb5d5ce5.css.map",
-    "main.da1fab0f.js.map": "./static/js/main.da1fab0f.js.map",
+    "main.0f3a0152.js.map": "./static/js/main.0f3a0152.js.map",
     "787.f1355ab5.chunk.js.map": "./static/js/787.f1355ab5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb5d5ce5.css",
-    "static/js/main.da1fab0f.js"
+    "static/js/main.0f3a0152.js"
   ]
 }
