@@ -1,0 +1,67 @@
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 22px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: $c-blue;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  line-height: 26px;
+  font-weight: 600;
+  width: max-content;
+  transition: all 0.1s ease;
+
+  @include onMobile() {
+    line-height: 24.5px;
+    padding: 6px 16px;
+    font-size: 14px;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
+
+    &:hover {
+      background-color:$c-blue;
+      box-shadow: none;
+    }
+  }
+
+  &:hover {
+    background: $c-dark-blue;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%);
+  }
+
+  &--big {
+    line-height: 2.8;
+    font-size: 18px;
+    padding: 0 32px;
+
+    @include onMobile() {
+      line-height: 24.5px;
+      padding: 6px 16px;
+      font-size: 14px;
+    }
+  }
+
+  &--red {
+    background: $c-red;
+    &:hover {
+      background: $c-dark-red;
+    }
+  }
+
+  &--transparent {
+    background: transparent;
+    border: 1px solid #fff;
+
+    &:hover {
+      background: transparent;
+      box-shadow: none;
+    }
+  }
+}

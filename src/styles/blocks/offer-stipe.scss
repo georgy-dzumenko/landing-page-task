@@ -1,0 +1,35 @@
+.offer-stripe {
+  width: 100%;
+  background: $c-blue;
+  height: 42px;
+  padding: 32px 0;
+  margin-bottom: 32px;
+  margin-top: 16px;
+
+  @include onMobile() {
+    width: 100vw;
+    height: max-content;
+  }
+
+  &__content {
+    padding: 0 24px;
+    max-width: 1232px;
+    margin: auto;
+    height: max-content;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+
+    @include onMobile() {
+      padding: 0 16px;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

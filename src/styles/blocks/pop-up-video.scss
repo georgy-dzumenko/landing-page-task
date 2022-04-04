@@ -1,0 +1,28 @@
+.pop-up-video {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  // left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  
+  &__video {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 450px;
+
+    @include onMobile() {
+      width: 354px;
+      height: 200px;
+      margin: 0 auto;
+    }
+  }
+}

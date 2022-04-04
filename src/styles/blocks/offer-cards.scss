@@ -1,0 +1,140 @@
+.offer-cards {
+  display: flex;
+  height: 518px;
+  width: 100%;
+  box-sizing: border-box;
+
+  @include onMobile() {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  &__card-container {
+    padding: 8px;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    // margin: 40px 0px 16px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+    // height: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+
+    &--big {
+      margin: 0;
+
+      @include onMobile() {
+        margin-top: 40px;
+        margin-bottom: 16px;
+      }
+    }
+
+    &--dark-theme {
+      background-color: $c-dark-theme-item-background;
+    }
+  }
+
+  &__card-title {
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-color: inherit;
+
+    &--dark-theme {
+      background-color: #212121;
+    }
+  }
+
+  &__card-details {
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  &__card-system {
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    height: 40px;
+    margin: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    &--dark-theme {
+      filter: brightness(0) invert(1);
+    }
+
+    &--android {
+      background-image: url(../../static/systems/android.png)
+    }
+
+    &--IP {
+      background-image: url(../../static/systems/IP.png)
+    }
+
+    &--IPAndAndroid {
+      background-image: url(../../static/systems/IPAndAndroid.png)
+    }
+
+    &--big {
+      margin: 24px 0;
+
+      @include onMobile() {
+        margin: 8px;
+      }
+    }
+  }
+
+  &__details-row {
+    padding: 4px 16px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  &__button {
+    margin-top: 32px;
+  }
+
+  &__price {
+    color: $c-blue;
+    padding-top: 24px;
+    position: relative;
+    font-size: 68px;
+    line-height: 1.3;
+    display: flex;
+    align-items: top;
+    width: 100%;
+    justify-content: center;
+
+    &--dark-theme {
+      color: #fff;
+    }
+
+    &::before {
+      content: '€';
+      position: relative;
+      
+      font-size: 30px;
+      font-family: Poppins, sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+}

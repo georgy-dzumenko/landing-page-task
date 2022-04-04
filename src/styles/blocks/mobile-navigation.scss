@@ -1,0 +1,54 @@
+.mobile-navigation {
+  z-index: 20;
+  height: 57px;
+  width: 100%;
+  position: sticky;
+  display: none;
+  bottom: 0;
+  background-color: #fff;
+  fill:rgba(0, 0, 0, 0.54);
+  color:rgba(0, 0, 0, 0.54);
+  border-top: 1px solid rgb(224, 224, 224);
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+
+  @include onMobile() {
+    display: flex;
+  }
+  
+  &--dark-theme {
+    border-top: 1px solid #424242;
+    background-color: $c-dark-theme-item-background;
+    fill: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex: 1;
+    height: 100%;
+    padding: 8px 0;
+    color: inherit;
+  }
+  
+  &__link-icon {
+    fill: inherit;
+    height: 24px;
+    flex: 1;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  &__link-text {
+    color: inherit;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.16px;
+  }
+  
+  
+}
